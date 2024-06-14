@@ -1,0 +1,110 @@
+@media (max-width:1030px) {
+
+    /* ........home...........  */
+    .home .home-banner-1,
+    .home .home-banner-2 {
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    #home-section .banner-text
+{
+   
+    transform: translate(-80%, -50%);
+
+}
+}
+@media (max-width:991px) {
+
+    #home-section .banner-text
+{
+   
+    transform: translate(-66%, -50%);
+
+}
+
+/* <...............offers..............> */
+
+.offers .info-inner .biggest-heading
+{
+    font-size: 3rem;
+}
+
+/* ......Specials.........  */
+
+.countdown-container .countdown-counter li 
+{
+    padding: 1.5rem 1rem !important;
+}
+
+.countdown-container
+{
+    padding-top: 1rem !important;
+    padding-bottom:5rem !important;
+}
+
+}
+@media (max-width:767px) {
+
+    .home .home-banner-1,
+    .home .home-banner-2
+{
+   
+   background-position: 50% center;
+   min-height: 450px;
+
+}
+#home-section .banner-text
+{
+    text-align: center;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+#home-section .banner-text h1
+{
+    font-size: 3rem;
+}
+#home-section .banner-text h2
+{
+    font-size: 1.2rem;
+}
+#home-section .banner-text .btn-danger
+{
+    padding: 0.5rem 1.5rem;
+}
+
+ .up-to-content h2
+{
+    
+   font-size: 0.75rem !important;
+    
+}  
+
+.up-to-off img
+{
+     
+    height: 20vh !important;
+    object-fit: cover !important;
+}
+
+.special
+{
+    padding: 4rem 0;
+}
+
+.special .countdown-container .countdown-counter li
+{
+    padding: 1rem;
+    width: 20%;
+}
+
+
+}
+
+@media (max-width:330px)
+{
+    #home-section .banner-text h2
+    {
+        font-size: 1rem;
+    }
+}
+
